@@ -4,13 +4,16 @@
 
 The first step is to install the secondary WiFi adapter.
 
-The command `lsusb` should show the device ([lsusb example output](lsusb.txt).
+The command `lsusb` should show the device ([lsusb example output](lsusb.txt)).
 
 I used a "tp-link 300Mbps Mini Wireless N USB Adapter" TL-WN823N
 
+![tp-link TL-WN823N](tl-w823n.jpg)
+
 (uses 8192eu driver)
 
-Instructions &  Raspbian drivers at [fars-robotics.net](http://fars-robotics.net)
+Instructions &  Raspbian drivers at [fars-robotics.net](http://fars-robotics.net) but note
+I did **NOT** need to edit my `/etc/interfaces` or `/etc/wpa_supplicant` files.
 
 First step is work out which type of wifi chip is in your USB wifi adapter (by searching
 the internet). Eg. in the UK tp-link TL-WN823N it is '8192eu'. Clicking the 
