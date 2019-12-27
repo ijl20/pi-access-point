@@ -8,7 +8,7 @@ The command `lsusb` should show the device ([lsusb example output](lsusb.txt)).
 
 I used a "tp-link 300Mbps Mini Wireless N USB Adapter" TL-WN823N
 
-![tp-link TL-WN823N](tl-w823n.jpg)
+![tp-link TL-WN823N](tl-wn823n.jpg)
 
 (uses 8192eu driver)
 
